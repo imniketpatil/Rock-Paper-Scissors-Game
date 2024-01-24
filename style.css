@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #DBAFC1;
+}
+.heading{
+    background-color: #86626E;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading > h1{
+    font-size: 2rem;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.btn{
+    background-color: #E7C8DD;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    margin: 0 1.5rem 0 1.5rem;
+    /* opacity: 1;
+    border: none;
+    transition: 0.3s; */
+}
+.emoji:hover {
+    cursor: pointer;
+    opacity: .9; 
+    border: .5rem solid black;
+}
+.emoji{
+    background-color: #E7C8DD;
+    font-size: 10rem;
+    padding-bottom: 1.2rem;
+    padding-right: .2rem;
+    border-radius: 50%;
+    opacity: 1;
+    border: none;
+    transition: 0.3s;
+}
+.ginfo{
+    text-align: center;
+    margin: 1.2rem;
+    font-size: 2rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    color: black;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.players{
+    height: 5rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+#pscore, #cscore{
+    font-family: "Nunito", sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    
+}
+#p{
+    font-family: "Nunito", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.reset{
+    background-color: #E7C8DD;
+    height: 3rem;
+    width: 5rem;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    border: none;
+    border-radius: 2rem;
+    transition: 0.3s;
+}
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.reset:hover {
+    background-color: #DEFFFC;
+}
