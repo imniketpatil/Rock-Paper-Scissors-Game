@@ -25,20 +25,20 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 3rem;
+    margin: 2rem;
     gap: 2rem;
     flex-wrap: wrap;
 }
 .btn{
     background-color: #E7C8DD;
-    height: 10rem;
-    width: 10rem;
+    height: 7rem;
+    width: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
     border-radius: 50%;
-    margin: 0 1.5rem 0 1.5rem;
+    margin: 3rem;
     /* opacity: 1;
     border: none;
     transition: 0.3s; */
@@ -60,7 +60,7 @@ body{
 }
 .ginfo{
     text-align: center;
-    margin: 1.2rem;
+    margin: 1.3rem;
     font-size: 2rem;
     font-family: "Nunito", sans-serif;
     font-weight: 800;
@@ -71,10 +71,10 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 4rem;
 }
 .players{
-    height: 5rem;
+    height: 4rem;
     width: 10rem;
     display: flex;
     flex-direction: column;
@@ -112,4 +112,28 @@ body{
 }
 .reset:hover {
     background-color: #DEFFFC;
+}
+@media (max-width:545px){
+    .btn{
+        background-color: #E7C8DD;
+        height: 1rem;
+        width: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 50%;
+        margin: 3rem;
+        /* opacity: 1;
+        border: none;
+        transition: 0.3s; */
+    }
+    .emoji{
+        background-color: #E7C8DD;
+        font-size: 6rem;
+        padding-bottom: 1.2rem;
+        padding-right: .2rem;
+        border-radius: 50%;
+        
+    }
 }
